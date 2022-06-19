@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    overflow: hidden;
+}
+.maain{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg-intro-desktop.png);
+    background-size: contain;
+    background-color: hsl(0, 100%, 74%) ;
+    display: flex;
+}
+.section-1{
+    width: 50%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.first-div{
+    width: 65% ;
+}
+.para1{ text-align: start;
+    font-family: poppins;
+    font-size: 52px;
+    font-weight: 800;
+    color: white;
+    line-height: 55px;
+}
+.para2{ text-align:start;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 250;
+    color: white;
+    margin-top: -25px;
+}
+.section-2{
+    width: 50%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-div{
+    width: 65%;
+}
+.upper-box{
+    width: 100%;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: hsl(248, 32%, 49%);
+    box-shadow: 3px 3px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down-box{
+    width: 100%;
+    height: 60vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.795);
+    
+    /* display: flex;
+    justify-content: center; */
+}
+.para-3{
+    font-family: poppins;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
+.span-1{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+}
+
+.input-div{
+    width: 85%;
+    height: 7vh;
+    padding-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.myinput{
+    width: 100%;
+    height: 7vh;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 10px;
+    outline: none;
+
+}
+.myinput:focus{
+    border: 1px solid black;
+}
+::placeholder{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+.input-div2{ display: block !important;
+    width: 85%;
+    height: 7vh;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.mybut{
+    width: 100%;
+    height: 8vh;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(76, 172, 76);
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.paraa{
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.199);
+    margin-top: 3%;
+
+}
+.sspan{
+    color: rgba(255, 0, 0, 0.719);
+}
+
+
+@media (max-width:375px) {
+    .maain{
+        width: 100%;
+        height: fit-content;
+        background-image: url(bg-intro-mobile.png);
+        background-size: contain;
+        background-color: hsl(0, 100%, 74%) ;
+        display: block;
+    }
+    .section-1{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+       
+    }
+    .first-div{
+        width: 90% ;
+        margin-top: 20%;
+    }
+    .para1{ text-align: center;
+        font-family: poppins;
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+        line-height: 25px;
+        
+    }
+    .para2{ text-align:center;
+        font-family: poppins;
+        font-size: 14px;
+        font-weight: 250;
+        color: white;
+        margin-top: 5%;
+    }
+    .section-2{
+        width: 100%;
+        height: fit-content;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        
+        
+    }
+    .second-div{
+        width: 90%;
+        margin-top: 10%;
+        
+    }
+    .upper-box{
+        width: 100%;
+        height: 9vh;
+        border-radius: 10px;
+        background-color: hsl(248, 32%, 49%);
+        box-shadow: 3px 3px 5px black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .para-3{ text-align: center;
+        font-family: poppins;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+    }
+    .span-1{
+        display: block;
+        font-family: poppins;
+        font-size: 12px;
+        font-weight: 200;
+        color: white;
+    }
+    .down-box{
+        width: 100%;
+        height: fit-content;
+        border-radius: 10px;
+        margin-top: 20px;
+        background-color: white;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.795);
+        
+    }
+    .input-div{
+        width: 90%;
+        height: 6vh;
+        /* padding-top: 8%; */
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    .myinput{
+        width: 100%;
+        height: 6vh;
+        border: 1px solid rgba(0, 0, 0, 0.39);
+        border-radius: 8px;
+        outline: none;
+    
+    }
+    .input-div2{ 
+        width: 90%;
+        height: 6vh;
+        margin-top: 4%;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    .mybut{
+        width: 100%;
+        height: 7vh;
+        border-radius: 8px;
+        color: white;
+        background-color: rgb(76, 172, 76);
+        border: none;
+        font-size: 13px;
+        font-weight: 500;
+    
+    }
+    .paraa{  
+        /* text-align: center; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;       
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.199);
+        margin-top: 3%;
+    
+    }
+    
+}
